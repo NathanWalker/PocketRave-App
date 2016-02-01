@@ -1,6 +1,6 @@
 # NativeScript + AngularJS
 
-This is a template project using NativeScript and AngularJS 2
+This is a project using NativeScript and AngularJS 2. It will include a Spotify and Particle.io integration for use in a music and light show.
 
 # Prerequisites
 
