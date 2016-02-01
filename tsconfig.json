@@ -1,20 +1,20 @@
 {
     "compilerOptions": {
-        "outDir": "app",
-        "rootDir": "app",
         "module": "commonjs",
         "target": "es5",
         "inlineSourceMap": true,
-        "experimentalDecorators": true,
-        "removeComments": false,
-        "emitDecoratorMetadata": true,
-        "noEmitOnError": true
+        "experimentalDecorators": true,       
+        "emitDecoratorMetadata": true       
     },
     "files": [
         "app/app.ts",
         "app/compat.d.ts",
-        "app/main-page.ts",
-        "node_modules/tns-core-modules/tns-core-modules.d.ts"
+        "app/app-page.ts",
+        "app/views/home/home.ts",
+        "node_modules/tns-core-modules/tns-core-modules.d.ts",
+        "app/ns-location-strategy.ts",
+        "app/shared/config.ts",
+        "app/shared/utils/action-bar-util.ts"       
     ],
     "filesGlob": [
         "node_modules/tns-core-modules/tns-core-modules.d.ts",

@@ -1,5 +1,41 @@
-﻿.title {
-    font-size: 30;
-    horizontal-align: center;
-    margin:20;
+﻿@import { url('~/platform.css') };
+/*pallette taken from http://www.colourlovers.com/palette/2053287/Raving_Night_Lights*/
+
+Page {
+    background-color: #1C0123;
+    color: whitesmoke;
+    font-size: 17;
+}
+TextField {
+    margin: 10;
+    padding: 10;
+}
+Image {
+    margin-top: 20;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30;
+}
+Button {
+    margin: 10;
+    padding: 10;   
+}
+.blue{
+   background-color:#09B3E7; 
+}
+.pink{
+    background-color:#F922BE;
+}
+.purple{
+    background-color:#6E09F5;
+}
+.green{
+    background-color:#07E649;
+}
+ActionBar {
+    color: #F922BE;
+    background-color: #6E09F5;
+}
+Label {
+    color: #07E649;
 }
